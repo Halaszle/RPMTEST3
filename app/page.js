@@ -6,6 +6,7 @@ import styles from '../app/styles/Index.module.css';
 import Link from "next/link";
 import Image from "next/image";
 import globals from '../app/styles/index.globals.css'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function Home() {
   useLayoutEffect(() => {

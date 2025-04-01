@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Script from "next/script";
 import { Roboto } from 'next/font/google';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 // Definiowanie czcionki Roboto
 const roboto = Roboto({
