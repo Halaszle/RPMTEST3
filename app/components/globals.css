@@ -9,7 +9,7 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     color: #ffffffdb;
-    background: url('/tlo.png');
+    background: url('/tlo.webp');
     background-color: #181818; /* ✅ Zapobieganie pustemu tłu */
 }
 	hr	{
