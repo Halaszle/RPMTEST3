@@ -42,7 +42,7 @@ export default function Bio() {
       {/* Sekcja główna z efektem Parallax */}
       <section className={styles.ContactHeader} id="ContactHeader">
         <h1>CONTACT</h1>
-        <p>Let's meet together</p>
+        <p>Let&lsquo;s meet together</p>
       </section>
 
       {/* Sekcja treści biografii */}

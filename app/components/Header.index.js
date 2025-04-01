@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "../styles/HeaderIndex.module.css";
+import Link from 'next/link';
 
 export default function HeaderIndex() {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,9 +38,9 @@ export default function HeaderIndex() {
   return (
     <header className={styles.header} id="header">
       <div className={styles.logo}>
-        <a href="/">
+        <Link href="/">
           <Image src="/logo.png" alt="Logo" width={150} height={80} />
-        </a>
+        </Link>
       </div>
 
       {/* Menu dla komputerów */}
@@ -70,9 +71,9 @@ export default function HeaderIndex() {
 
           <nav className={`${styles.mobileNav} ${isOpen ? styles.showNav : ""}`}>
 		              <div className={styles.mobileLogo}>
-              <a href="/">
+              <Link href="/">
                 <Image src="/logo.png" alt="Logo" width={160} height={70} />
-              </a>
+              </Link>
             </div>
 		  
             <ul>

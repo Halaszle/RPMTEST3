@@ -42,7 +42,7 @@ export default function Bio() {
       {/* Sekcja główna z efektem Parallax */}
       <section className={styles.musicHeader} id="bioHeader">
         <h1>MUSIC</h1>
-        <p>Let's dive to the psychedelic world</p>
+        <p>Let&lsquo;s dive to the psychedelic world</p>
       </section>
 
       {/* Sekcja treści biografii */}
