@@ -30,11 +30,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-      </Head>
-
       <Header />
       <section className={styles.indexHero} id="indexHero">
         <h1>RED PINE MUSHROOM</h1>
