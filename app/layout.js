@@ -3,12 +3,21 @@
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Script from "next/script";
+import { Roboto } from 'next/font/google';
+
+// Definiowanie czcionki Roboto
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['300', '400', '700'],
+  display: 'swap', // Zapewnia szybsze renderowanie czcionki
+  preload: true,   // Czcionka będzie preładowana
+});
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   return (
-    <html lang="en">
+     <html lang="pl" className={roboto.className}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
