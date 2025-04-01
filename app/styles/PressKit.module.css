@@ -1,6 +1,6 @@
 .PressKitHeader {
     text-align: center;
-    background: url('/presskit-header.png') no-repeat center center/cover;
+    background: url('/presskit-header.webp') no-repeat center center/cover;
     height: 800px; /* ✅ Zmniejszona wysokość */
     display: flex;
     align-items: center;
@@ -113,3 +113,8 @@
         flex-wrap: wrap;
         gap: 15px;
     }
+	@media	(max-width: 884px)	{
+	.PressKitHeader	{
+		background: url('/presskit-header-mobile.webp') no-repeat center center/cover;
+	}
+}

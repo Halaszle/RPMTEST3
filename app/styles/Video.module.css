@@ -1,6 +1,6 @@
 .videoHeader {
     text-align: center;
-    background: url('/video-header.png') no-repeat center center/cover;
+    background: url('/video-header.webp') no-repeat center center/cover;
     height: 800px; /* ✅ Zmniejszona wysokość */
     display: flex;
     align-items: center;
@@ -43,4 +43,9 @@
 	margin-top: 10px;
     font-size: 1rem;
 
+}
+	@media	(max-width: 884px)	{
+	.videoHeader	{
+		background: url('/video-header-mobile.webp') no-repeat center center/cover;
+	}
 }
