@@ -32,7 +32,7 @@ export default function Home() {
     <>
       <Header />
       <section className={styles.indexHero} id="indexHero">
-        <h1>RED PINE MUSHROOM</h1>
+        <h1>RED PINE MUSHROOM TEST</h1>
         <p>POST-ROCK · DESERT ROCK · INSTRUMENTAL</p>
       </section>
 	<main>
