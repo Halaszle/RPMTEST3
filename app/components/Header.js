@@ -70,7 +70,7 @@ export default function Header() {
           <nav className={`${styles.mobileNav} ${isOpen ? styles.showNav : ""}`}>
 		              <div className={styles.mobileLogo}>
               <Link href="/">
-                <Image src="/logo.png" alt="Logo" width={160} height={70} />
+                <Image src="/logo.png" alt="Logo" width={160} height={60} />
               </Link>
             </div>
 		  
