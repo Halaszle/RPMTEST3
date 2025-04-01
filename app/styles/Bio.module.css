@@ -42,3 +42,7 @@
     font-size: 1rem;
 
 }
+@media (max-width: 884px) {
+    .bioHeader {
+        background-size: 90%;		
+    }
