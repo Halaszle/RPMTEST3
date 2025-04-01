@@ -1,0 +1,26 @@
+.footer {
+    margin-top: 50px;
+    padding: 20px 15%;
+    text-align: center;
+    background: url('/tlo.webp');
+    color: #838383;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.container a {
+    text-decoration: none;
+    color: #838383;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: #ff6b6b;
+}

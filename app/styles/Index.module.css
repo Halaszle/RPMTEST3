@@ -1,0 +1,49 @@
+.indexHero {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 600px;
+    background-attachment: scroll; /* Poprawione dla iOS */
+}
+
+.indexHero h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+.indexSocialIcons {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.icon {
+    transition: filter 0.1s ease, transform 0.2s ease;
+}
+
+.icon:hover {
+    filter: brightness(100) saturate(100%) invert(40%) sepia(40%) saturate(5302%) hue-rotate(320deg);
+    transform: rotate(3deg) scale(1.3);
+}
+
+/* 🏆 Optymalizacje dla mniejszych ekranów */
+@media (max-width: 768px) {
+    .indexHero h1 {
+        font-size: 3rem;
+    }
+
+    .indexSocialIcons {
+        gap: 20px;
+    }
+}

@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffffdb;
+    background: url('/tlo.webp');
+    background-color: #181818; /* ✅ Zapobieganie pustemu tłu */
+}
+	hr	{
+		border: none;
+		height: 1px;
+		background: #444;
+		margin-bottom: 15px;
+	}
+	
+	p 	{
+		margin-top: 10px;
+		font-size: 1rem;
+	}
+
+/* Mobilna wersja strony */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px; /* Większa czcionka dla lepszej czytelności */
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    iframe {
+        width: 10%;
+        height: 300px; /* Dopasowanie Spotify */
+    }
+}

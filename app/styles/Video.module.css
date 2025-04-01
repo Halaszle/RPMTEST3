@@ -1,0 +1,46 @@
+.videoHeader {
+    text-align: center;
+    background: url('/video-header.png') no-repeat center center/cover;
+    height: 800px; /* ✅ Zmniejszona wysokość */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoomBackground var(--animation-duration, 15s) infinite alternate ease-in-out;
+}
+@keyframes zoomBackground {
+    0% { background-position: center; }
+    100% { background-position: 70% 40%; } /* 🔄 Delikatne przesunięcie */
+}
+
+.videoHeader h1 {
+    font-size: 3rem; /* ✅ Dopasowana wielkość tekstu */
+    font-weight: 700;
+    margin-top: 300px;
+}
+
+.videoContent {
+            max-width: 1100px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.8;
+			text-align: center;
+}
+
+.videoContent h2 {
+            margin-top: 20px;
+			font-size: 30px;
+			text-align: center;
+
+}
+
+.videoContent p {
+	margin-top: 10px;
+    font-size: 1rem;
+
+}

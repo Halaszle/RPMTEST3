@@ -1,0 +1,162 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15%;
+    background: rgba(128 128 128 / 4%);
+    z-index: 10;
+    transition: top 0.5s ease-in-out;
+}
+
+.logo img {
+    height: 50px;
+    width: auto;
+    transition: filter 0.3s ease-in-out;
+}
+
+.logo img:hover {
+    filter: blur(5px);
+    transition: filter 1s ease-in-out;
+}
+
+.navList {  /* ✅ Lokalna klasa zamiast globalnego `nav ul` */
+    list-style: none;
+    display: flex;
+    gap: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.navItem a {  /* ✅ Lokalna klasa zamiast `nav a` */
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+	font-family: sans-serif;
+}
+
+.navItem a:hover {
+    color: #ff6b6b;
+}
+.navItem a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px;
+    width: 0;
+    height: 1px;
+    background-color: #ffffff40;
+    transition: width 0.3s ease-out, left 0.3s ease-out;
+}
+
+.navItem a:hover::after {
+    width: 100%;
+    left: 0;
+}
+.flags img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+}
+/* 📱 Przycisk hamburger menu - ukryty na dużych ekranach */
+.menuButton {
+    display: none;
+    font-size: 32px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1100;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+/* 📌 Animacja zmiany ☰ na ✖ */
+.open {
+    transform: rotate(90deg);
+}
+
+/* 📱 Mobilne menu (ukryte domyślnie) */
+.mobileNav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 0%; /* Menu startuje niewidoczne */
+    background: rgba(0, 0, 0, 0); /* Całkowicie przezroczyste na start */
+    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: height 0.4s ease-in-out, opacity 0.4s ease-in-out, background 0.4s ease-in-out, transform 0.4s ease-in-out;
+    overflow: hidden;
+}
+
+.showNav {
+    height: 100%; /* Menu rozwija się do 80% wysokości ekranu */
+    background: rgba(0, 0, 0, 0.95); /* Staje się widoczne */
+    opacity: 1; /* Stopniowe zwiększanie przezroczystości */
+    transform: translateY(0);
+	width: 100%;
+}
+.mobileLogo {
+    position: absolute;
+    top: 20px;
+	margin-top: 60px;
+    width: 260px;
+    height: 60px;
+}
+/* 📱 Ustawienia dla ekranów mobilnych */
+@media (max-width: 884px) {
+    .desktopNav {
+        display: none; /* Ukrywa standardowe menu na telefonach */
+		
+    }
+
+    .menuButton {
+        display: block; /* Pokazuje ikonę ☰ na telefonach */
+        position: absolute;
+        right: 5%; /* Przesunięcie hamburgera maksymalnie do prawej */
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 32px;
+    }
+
+    .mobileNav ul {
+        flex-direction: column;
+        gap: 45px;
+        text-align: center;
+        list-style: none;
+		display: flex;
+    }
+
+    .navItem a {
+        font-size: 28px;
+	}
+	    .logo img{
+        position: absolute;
+        left: 5%;  /* Przesunięcie logo do lewej */
+        top: 50%;
+        transform: translateY(-50%);
+    }
+	    .header {
+        height: 60px; /* ✅ Ustalona wysokość, aby header nie był ucięty */
+    }
+	.mobileLogo {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+        height: 100px;
+	}
+}

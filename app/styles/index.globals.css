@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffffdb;
+	background:url('/image.png') no-repeat center center;
+	background-size: cover;
+    background-color: #181818; /* ✅ Zapobieganie pustemu tłu */
+	height: 100vh;
+    animation: zoomBackground var(--animation-duration, 15s) infinite alternate ease-in-out;
+}
+@keyframes zoomBackground {
+    0% { background-position: center; }
+    100% { background-position: 95% 90%; } /* 🔄 Delikatne przesunięcie */
+}
+r	{
+		border: none;
+		height: 1px;
+		background: #444;
+		margin-bottom: 15px;
+	}
+	
+	p 	{
+		margin-top: 10px;
+		font-size: 1rem;
+	}	

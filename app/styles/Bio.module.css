@@ -1,0 +1,44 @@
+.bioHeader {
+    text-align: center;
+    background: url('/bio-header.webp') no-repeat center center/cover;
+    height: 800px; /* ✅ Zmniejszona wysokość */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoomBackground var(--animation-duration, 15s) infinite alternate ease-in-out;
+}
+@keyframes zoomBackground {
+    0% { background-position: center; }
+    100% { background-position: 70% 40%; } /* 🔄 Delikatne przesunięcie */
+}
+.bioHeader h1 {
+    font-size: 3rem; /* ✅ Dopasowana wielkość tekstu */
+    font-weight: 700;
+    margin-top: 300px;
+}
+
+.bioContent {
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 20px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.bioContent h2 {
+    margin-top: 36px;
+    font-size: 24px; /* ✅ Większe nagłówki */
+
+}
+
+.bioContent p {
+	margin-top: 10px;
+    font-size: 1rem;
+
+}

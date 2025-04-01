@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffffdb;
+    background: url('/tlo.png');
+    background-color: #181818; /* ✅ Zapobieganie pustemu tłu */
+}
+	hr	{
+		border: none;
+		height: 1px;
+		background: #444;
+		margin-bottom: 15px;
+	}
+	
+	p 	{
+		margin-top: 10px;
+		font-size: 1rem;
+	}

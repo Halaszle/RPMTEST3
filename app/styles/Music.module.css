@@ -1,0 +1,73 @@
+.musicHeader {
+    text-align: center;
+    background: url('/music-header.png') no-repeat center center/cover;
+    height: 800px; /* ✅ Zmniejszona wysokość */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: zoomBackground var(--animation-duration, 15s) infinite alternate ease-in-out;
+}
+@keyframes zoomBackground {
+    0% { background-position: center; }
+    100% { background-position: 60% 40%; } /* 🔄 Delikatne przesunięcie */
+}
+
+.musicHeader h1 {
+    font-size: 3rem; /* ✅ Dopasowana wielkość tekstu */
+    font-weight: 700;
+    margin-top: 300px;
+}
+
+.musicContent {
+            max-width: 1400px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.8;
+			text-align: left;
+}
+
+.musicContent h2 {
+            margin-top: 20px;
+			font-size: 30px;
+			text-align: center;
+			margin-bottom:  36px;
+}
+
+.musicContent p {
+	margin-top: 10px;
+    font-size: 1rem;
+
+}
+.EPs	{
+	width:590px;
+	overflow: auto;
+	float: inline-start;
+	margin-right: 30px;
+	margin-left: 60px;
+	margin-bottom:100px;
+}
+.Singles	{
+		width:1000px;
+		margin-left: 200px;
+		margin-top: 30px;	
+}
+@media	(max-width: 884px)	{
+	.Singles	{
+		width:80%;
+		left:15%;
+		position: sticky;
+		margin-left: 0px;
+	}
+	.EPs	{
+	width:80%;
+	left:50%;
+	position: sticky;
+	margin-left: 0px;
+	}
+}
