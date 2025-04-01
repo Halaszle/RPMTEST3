@@ -149,7 +149,7 @@
         transform: translateY(-50%);
     }
 	    .header {
-        height: 60px; /* ✅ Ustalona wysokość, aby header nie był ucięty */
+        height: 80px; /* ✅ Ustalona wysokość, aby header nie był ucięty */
     }
 	.mobileLogo {
         position: absolute;
