@@ -73,6 +73,7 @@ export default function Bio() {
 			<p>With The Mine Valley on the horizon, Red Pine Mushroom continues to push the boundaries of their artistry. Their commitment to exploration and authenticity makes them a band worth following as they carve out their own unique space in the post-rock world.</p>
 		</section>
 	  </article>
+	  <br/>
 	</main>  
     <Footer />
     </>
