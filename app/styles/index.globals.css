@@ -9,7 +9,7 @@
 html, body {
     font-family: 'Roboto', sans-serif;
     color: #ffffffdb;
-	background:url('/image.png') no-repeat center center;
+	background:url('/image.webp') no-repeat center center;
 	background-size: cover;
     background-color: #181818; /* ✅ Zapobieganie pustemu tłu */
 	height: 100vh;
