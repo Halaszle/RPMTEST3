@@ -159,6 +159,7 @@ export default function RootLayout({ children }) {
         <meta
           name="description"
           content="Discover Red Pine Mushroom – an instrumental post-rock band. Explore our latest albums, tour dates, and exclusive updates."
+		  logo="https://redpinemushroom.com/logo.png"
         />
       </head>
       <body>
