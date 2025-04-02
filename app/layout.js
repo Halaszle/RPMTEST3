@@ -158,7 +158,7 @@ export default function RootLayout({ children }) {
         <title>Red Pine Mushroom | Official Website</title>
         <meta
           name="description"
-          content="Discover Red Pine Mushroom – an instrumental post-rock band. Explore our latest albums, tour dates, and exclusive updates."
+          content="Red Pine Mushroom – Psychedelic Post-Rock from Poland. Explore the atmospheric sound of Red Pine Mushroom, a post-rock, psychedelic, and desert rock band from Głogów. Listen to our latest releases, tour dates, and exclusive content."
 		  logo="https://redpinemushroom.com/logo.png"
         />
       </head>
