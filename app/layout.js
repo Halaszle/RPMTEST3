@@ -13,7 +13,7 @@ const roboto = Roboto({
   preload: true,   // Czcionka będzie preładowana
 });
 
-export default function RootLayout({ children }, { children: React.ReactNode }) {
+export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   return (
