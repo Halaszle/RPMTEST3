@@ -24,3 +24,11 @@
 .container a:hover {
     color: #ff6b6b;
 }
+/* 🏆 Optymalizacje dla mniejszych ekranów */
+@media (max-width: 768px) {
+	.container {
+		font-size: 0.6rem;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+}
