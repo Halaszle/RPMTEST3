@@ -116,6 +116,8 @@
 	@media	(max-width: 884px)	{
 	.PressKitHeader	{
 		background: url('/presskit-header-mobile.webp') no-repeat center center/cover;
-		margin-top: 0px;
 	}
+	.PressKitHeader h1 {
+    margin-top: 0px;
+}
 }
