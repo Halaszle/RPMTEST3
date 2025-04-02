@@ -1,5 +1,5 @@
 "use client";
-
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import Script from "next/script";
@@ -13,7 +13,7 @@ const roboto = Roboto({
   preload: true,   // Czcionka będzie preładowana
 });
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
 
   return (
