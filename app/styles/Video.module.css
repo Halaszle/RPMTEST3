@@ -47,5 +47,6 @@
 	@media	(max-width: 884px)	{
 	.videoHeader	{
 		background: url('/video-header-mobile.webp') no-repeat center center/cover;
+		margin-top: 0px;
 	}
 }

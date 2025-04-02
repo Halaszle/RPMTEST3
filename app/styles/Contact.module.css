@@ -58,5 +58,6 @@ overflow: auto;
 	}
 	.ContactHeader	{
 		    background: url('/contact-header-mobile.webp') no-repeat center center/cover;
+		margin-top: 0px;
 	}
 }
