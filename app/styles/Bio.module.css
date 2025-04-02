@@ -48,4 +48,9 @@
     background: url('/bio-header-mobile.webp') no-repeat center center/cover;
 		
     }
+	.bioHeader h1 {
+    font-size: 3rem; /* ✅ Dopasowana wielkość tekstu */
+    font-weight: 700;
+    margin-top: 0px;
+	}
 }
