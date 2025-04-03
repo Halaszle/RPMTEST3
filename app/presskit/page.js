@@ -86,7 +86,7 @@ export default function Bio() {
 				</div>
 <br></br>
 				<div className={styles.ResourceSection}>
-					<span>LOGO</span>
+					<span>LINKS</span>
 						<div className={styles.ButtonGroup}>
 							<a href="google.com" className={styles.btn}>Facebook →</a>		
 							<a href="google.com" className={styles.btn}>Instagram →</a>	
