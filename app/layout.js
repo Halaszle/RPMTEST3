@@ -31,10 +31,10 @@ export default function RootLayout({ children }) {
       "@type": "MusicGroup",
       "name": "Red Pine Mushroom",
       "genre": ["Post-Rock", "Psychedelic Rock", "Desert Rock", "Instrumental"],
-      "url": "https://twojadomena.com",
+      "url": "https://redpinemushroom.com",
       "description": "Red Pine Mushroom is an instrumental post-rock band blending elements of desert rock and psychedelic rock. Explore our albums, upcoming concerts, and exclusive content.",
       "keywords": "Red Pine Mushroom, post-rock band, desert rock, psychedelic rock, instrumental music, live concerts, music albums",
-      "image": "https://twojadomena.com/images/redpine-band.jpg",
+      "image": "https://redpinemushroom.com/logomain.png",
       "sameAs": [
         "https://www.facebook.com/redpinemushroom",
         "https://instagram.com/redpinemushroomofficial",
@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
           "description": "Vagrant is a sonic journey through vast landscapes, blending dreamy post-rock atmospheres with heavy desert rock riffs.",
           "datePublished": "2022-05-10",
           "url": "https://open.spotify.com/album/6UyvOns9zLSdTbgkYAbvbJ?si=v8ZP0wpRS9O8gaPUCk9z-A",
-          "image": "https://twojadomena.com/images/vagrant-cover.jpg"
+          "image": "https://redpinemushroom.com/logomain.png/albums/vagrant.png"
         },
         {
           "@type": "MusicAlbum",
@@ -58,7 +58,7 @@ export default function RootLayout({ children }) {
           "description": "Inspired by ancient mythology, Enki delivers a fusion of hypnotic rhythms and psychedelic textures.",
           "datePublished": "2023-07-15",
           "url": "https://open.spotify.com/album/2Og9haC6ccuHdIGi0FDmxw?si=Kvzgc1srTymATFo45lDdRQ",
-          "image": "https://twojadomena.com/images/enki-cover.jpg"
+          "image": "https://redpinemushroom.com/logomain.png/albums/enki.png"
         },
         {
           "@type": "MusicAlbum",
@@ -107,14 +107,14 @@ export default function RootLayout({ children }) {
           "organizer": {
             "@type": "Organization",
             "name": "Red Pine Mushroom Official",
-            "url": "https://twojadomena.com"
+            "url": "https://redpinemushroom.com"
           },
           "offers": {
             "@type": "Offer",
             "price": "50",
             "priceCurrency": "PLN",
             "availability": "https://schema.org/InStock",
-            "url": "https://twojadomena.com/concerts/warsaw"
+            "url": "https://redpinemushroom.com"
           }
         }
       ],
@@ -150,7 +150,7 @@ export default function RootLayout({ children }) {
         "@type": "ContactPoint",
         "contactType": "Contact",
         "email": "rpine.mushroom@gmail.com",
-        "url": "https://twojadomena.com/contact"
+        "url": "https://redpinemushroom.com/contact"
       }
     }),
   }}
