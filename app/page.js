@@ -39,12 +39,12 @@ export default function Home() {
 	<main>
       <section className={styles.indexSocialIcons} id="indexSocialIcons">
         {[
-          { href: "https://www.facebook.com/redpinemushroom", src: "/facebook.png", alt: "Facebook", fetchpriority="low" },
-          { href: "https://instagram.com/redpinemushroomofficial", src: "/instagram.png", alt: "Instagram", fetchpriority="low" },
-          { href: "https://www.youtube.com/@redpinemushroom", src: "/yt.png", alt: "YouTube", fetchpriority="low" },
-          { href: "https://redpinemushroom.bandcamp.com/", src: "/bandcamp.png", alt: "Bandcamp", fetchpriority="low" },
-          { href: "https://open.spotify.com/artist/1xwwutIpfyNvuVyWYXw2Gr?si=odDG0CRnQgC0MWwD9RCu5A", src: "/spotify.png", alt: "Spotify", fetchpriority="low" },
-          { href: "https://music.apple.com/us/artist/red-pine-mushroom/1673976910", src: "/apple.png", alt: "Apple Music", fetchpriority="low" },
+          { href: "https://www.facebook.com/redpinemushroom", src: "/facebook.png", alt: "Facebook" },
+          { href: "https://instagram.com/redpinemushroomofficial", src: "/instagram.png", alt: "Instagram" },
+          { href: "https://www.youtube.com/@redpinemushroom", src: "/yt.png", alt: "YouTube" },
+          { href: "https://redpinemushroom.bandcamp.com/", src: "/bandcamp.png", alt: "Bandcamp" },
+          { href: "https://open.spotify.com/artist/1xwwutIpfyNvuVyWYXw2Gr?si=odDG0CRnQgC0MWwD9RCu5A", src: "/spotify.png", alt: "Spotify" },
+          { href: "https://music.apple.com/us/artist/red-pine-mushroom/1673976910", src: "/apple.png", alt: "Apple Music" },
         ].map((item, index) => (
           <Link key={index} href={item.href} target="_blank" rel="noopener noreferrer">
             <Image src={item.src} alt={item.alt} width={24} height={24} className={styles.icon} />
