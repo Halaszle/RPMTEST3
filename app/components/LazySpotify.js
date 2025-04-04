@@ -36,7 +36,7 @@ export default function LazySpotify({ src, height = 152 }) {
           loading="lazy"
         />
       ) : (
-        <div style={{ height: `${height}px`, background: '#111', borderRadius: '12px' }} />
+        <div style={{ height: `${height}px`, backgroundColor: '#111', borderRadius: '12px' }} />
       )}
     </div>
   );
