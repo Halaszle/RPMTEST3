@@ -6,15 +6,15 @@ export const metadata = {
   openGraph: {
     title: 'BIO - Red Pine Mushroom | Post-Rock Band',
     description: 'Learn about Red Pine Mushroom, a Polish trio that fuses post-rock, psychedelic rock, and desert rock into a unique instrumental experience.',
-    url: 'https://twojadomena.com/bio',
+    url: 'https://redpinemushroom.com/bio',
     siteName: 'Red Pine Mushroom',
     type: 'website',
     images: [
       {
-        url: 'https://twojadomena.com/images/bio-cover.jpg', // Upewnij się, że ten obraz istnieje
-        width: 1200,
-        height: 630,
-        alt: 'Red Pine Mushroom - post-rock band',
+        url: 'https://redpinemushroom.com/logomain.png', // Upewnij się, że ten obraz istnieje
+        width: 1184,
+        height: 1184,
+        alt: 'Red Pine Mushroom - post-rock, desert rock, psychedelic band',
       },
     ],
   },
