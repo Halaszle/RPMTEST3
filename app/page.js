@@ -47,7 +47,7 @@ export default function Home() {
           { href: "https://music.apple.com/us/artist/red-pine-mushroom/1673976910", src: "/apple.png", alt: "Apple Music" },
         ].map((item, index) => (
           <Link key={index} href={item.href} target="_blank" rel="noopener noreferrer">
-            <Image src={item.src} alt={item.alt} width={24} height={24} className={styles.icon} loading="lazy" />
+            <Image src={item.src} alt={item.alt} width={24} height={24} className={styles.icon} />
           </Link>
         ))}
       </section>
