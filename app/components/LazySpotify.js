@@ -1,31 +1,32 @@
-'use client'
+// components/LazySpotify.js
+'use client';
 import { useEffect, useRef, useState } from 'react';
 
-export default function LazySpotify({ src, height = 152 }) {
-  const [isVisible, setIsVisible] = useState(false);
-  const containerRef = useRef(null);
+export default function LazySpotify({ src, height = 352 }) {
+  const ref = useRef(null);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    if (!containerRef.current) return;
-
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setIsVisible(true);
+          setVisible(true);
           observer.disconnect();
         }
       },
       { threshold: 0.1 }
     );
 
-    observer.observe(containerRef.current);
+    if (ref.current) {
+      observer.observe(ref.current);
+    }
 
     return () => observer.disconnect();
   }, []);
 
   return (
-    <div ref={containerRef} style={{ minHeight: `${height}px`, marginBottom: '24px' }}>
-      {isVisible ? (
+    <div ref={ref} style={{ minHeight: `${height}px`, marginBottom: '20px' }}>
+      {visible && (
         <iframe
           style={{ borderRadius: '12px', width: '100%' }}
           src={src}
@@ -34,9 +35,7 @@ export default function LazySpotify({ src, height = 152 }) {
           frameBorder="0"
           allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
           loading="lazy"
-        />
-      ) : (
-        <div style={{ height: `${height}px`, backgroundColor: '#111', borderRadius: '12px' }} />
+        ></iframe>
       )}
     </div>
   );
