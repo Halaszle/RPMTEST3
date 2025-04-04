@@ -5,6 +5,7 @@ import Header from '../components/Header';
 import styles from '../styles/Music.module.css';
 import globals from '../components/globals.css';
 import Footer from '../components/Footer';
+import LazySpotify from '../components/LazySpotify';
 
 export default function Bio() {
 
@@ -75,39 +76,15 @@ export default function Bio() {
 					<h2>Singles</h2>
 
 			
-			<div className={styles.Singles}>
-			  <iframe
-				style={{ borderRadius: '12px',width: '100%' }}
-				src="https://open.spotify.com/embed/album/715YFZolt5bP3sSNoQsb6E?utm_source=generator"
-				width="100%"
-				height="152"
-				frameBorder="0"
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-				loading="lazy"
-			  ></iframe>
-			</div>
-			<div className={styles.Singles}>
-			  <iframe
-				style={{ borderRadius: '12px', width: '100%' }}
-				src="https://open.spotify.com/embed/album/0InfvRixZIhrMbav8eRHEl?utm_source=generator"
-				width="100%"
-				height="152"
-				frameBorder="0"
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-				loading="lazy"
-			  ></iframe>
-			</div>
-			<div className={styles.Singles}>
-			  <iframe
-				style={{ borderRadius: '12px', width: '100%' }}
-				src="https://open.spotify.com/embed/track/5ggKjL00WXB0Vj7IkPcOkD?utm_source=generator"
-				width="100%"
-				height="152"
-				frameBorder="0"
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-				loading="lazy"
-			  ></iframe>
-			</div>						
+<div className={styles.Singles}>
+  <LazySpotify src="https://open.spotify.com/embed/album/715YFZolt5bP3sSNoQsb6E?utm_source=generator" />
+</div>
+<div className={styles.Singles}>
+  <LazySpotify src="https://open.spotify.com/embed/album/0InfvRixZIhrMbav8eRHEl?utm_source=generator" />
+</div>
+<div className={styles.Singles}>
+  <LazySpotify src="https://open.spotify.com/embed/track/5ggKjL00WXB0Vj7IkPcOkD?utm_source=generator" />
+</div>					
       </section>
       <Footer />
 
