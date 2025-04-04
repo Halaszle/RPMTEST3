@@ -18,13 +18,6 @@ export const metadata = {
       },
     ],
   },
-  twitter: {
-    card: 'summary_large_image',
-    site: '@TwojTwitter',
-    title: 'BIO - Red Pine Mushroom | Post-Rock Band',
-    description: 'Poznaj historię zespołu Red Pine Mushroom – polskiego tria łączącego post-rock, rock psychodeliczny i desert rock.',
-    images: ['https://twojadomena.com/images/bio-cover.jpg'],
-  },
 };
 
 export default function BioLayout({ children }) {

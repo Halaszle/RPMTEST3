@@ -33,8 +33,8 @@ export default function Bio() {
   return (
     <>
       <Head>
-        <title>Bio - Red Pine Mushroom</title>
-        <meta name="description" content="Poznaj historię zespołu Red Pine Mushroom." />
+        <title>Contact - Red Pine Mushroom</title>
+        <meta name="description" content="Contact us - Red Pine Mushroom" />
       </Head>
 
       <Header />
