@@ -72,7 +72,7 @@ export default function HeaderIndex() {
           <nav className={`${styles.mobileNav} ${isOpen ? styles.showNav : ""}`}>
 		              <div className={styles.mobileLogo}>
               <Link href="/">
-                <Image src="/logo.png" alt="Logo" width={160} height={60} />
+                <Image src="/logo.png" alt="Logo" width={160} height={60} priority={true} />
               </Link>
             </div>
 		  
