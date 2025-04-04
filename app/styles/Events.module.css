@@ -4,11 +4,8 @@
   margin: 0 auto;
 }
 
-h1 {
-  color: #fff;
-  text-align: center;
-}
-h2 {
+.container h1,
+.container h2 {
   color: #fff;
   text-align: center;
 }
