@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   const pathname = usePathname();
 
   return (
-     <html lang="pl" className={roboto.className}>
+     <html lang="en" className={roboto.className}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
