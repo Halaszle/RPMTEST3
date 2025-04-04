@@ -1,9 +1,9 @@
 'use client';
 
 import { useMemo } from 'react';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
-import styles from '../../styles/Events.module.css';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import styles from '../styles/Events.module.css';
 
 const events = [
   {
