@@ -50,18 +50,28 @@ export default function Bio() {
       <section className={styles.musicContent}>
 		<h2>EPs</h2>
 		
-<div className={styles.EPs}>
-  <LazySpotify
-    src="https://open.spotify.com/embed/album/6UyvOns9zLSdTbgkYAbvbJ?utm_source=generator"
-    height={352}
-  />
-</div>
-<div className={styles.EPs}>
-  <LazySpotify
-    src="https://open.spotify.com/embed/album/2Og9haC6ccuHdIGi0FDmxw?utm_source=generator"
-    height={352}
-  />
-</div>
+			<div className={styles.EPs}>
+			  <iframe
+				style={{ borderRadius: '12px', maxWidth: '600px', width: '100%' }}
+				src="https://open.spotify.com/embed/album/6UyvOns9zLSdTbgkYAbvbJ?utm_source=generator"
+				width="100%"
+				height="352"
+				frameBorder="0"
+				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+				loading="lazy"
+			  ></iframe>
+			</div>
+			<div className={styles.EPs}>
+			  <iframe
+				style={{ borderRadius: '12px', maxWidth: '600px', width: '100%' }}
+				src="https://open.spotify.com/embed/album/2Og9haC6ccuHdIGi0FDmxw?utm_source=generator"
+				width="100%"
+				height="352"
+				frameBorder="0"
+				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+				loading="lazy"
+			  ></iframe>
+			</div>
 
 					<h2>Singles</h2>
 
