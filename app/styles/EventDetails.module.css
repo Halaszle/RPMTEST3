@@ -1,0 +1,41 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.date {
+  font-style: italic;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.imageWrapper {
+  margin: 1rem 0;
+}
+
+.imageWrapper img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.infoBox {
+  background-color: #f2f2f2;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 6px;
+}
+
+.description {
+  margin-top: 2rem;
+}

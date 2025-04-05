@@ -8,7 +8,7 @@ export default function Footer() {
         <span>Red Pine Mushroom</span>
         <span>
           <a href="https://www.instagram.com/haszelele/" target="_blank" rel="noopener noreferrer">
-            Created by Konrad Kisło
+            Designed by Konrad Kisło
           </a>
         </span>
       </div>

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@vercel/speed-insights": "^1.2.0",
+    "date-fns": "^4.1.0",
     "framer-motion": "^12.6.0",
     "i18next": "^24.2.3",
     "next": "15.2.4",
@@ -17,7 +18,8 @@
     "next-seo": "^6.6.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-i18next": "^15.4.1"
+    "react-i18next": "^15.4.1",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
