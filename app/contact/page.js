@@ -51,11 +51,10 @@ export default function Bio() {
 			<div className={styles.kontakty}>
 				<h3>E-mail:</h3>
 				<p>rpine.mushroom@gmail.com</p>
-				<p>konrad.kislo@gmail.com</p>
+				<br/><br/>
 			</div>
 			<div className={styles.kontakty}>
 				<h3>Phone:</h3>
-				<p>+48 693262420</p>
 				<p>+31 612459605</p>
 			</div>			
 		<br></br><br></br><br></br><br></br><br></br>
