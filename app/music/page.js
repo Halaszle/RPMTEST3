@@ -75,7 +75,9 @@ export default function Bio() {
 
 					<h2>Singles</h2>
 
-			
+<div className={styles.Singles}>
+  <LazySpotify src="https://open.spotify.com/embed/track/0RnyU1iNlBDJOrdB3Ltgci?utm_source=generator" />
+</div>				
 <div className={styles.Singles}>
   <LazySpotify src="https://open.spotify.com/embed/album/715YFZolt5bP3sSNoQsb6E?utm_source=generator" />
 </div>
