@@ -53,7 +53,7 @@ export default function Bio() {
 					<br></br><br></br>
 
 			<h2>Voice of the Mushroom (2025)</h2>
-				<iframe width="100%" height="596" src="https://www.youtube.com/embed/wc5UhWXm3To?si=E1Ht0MKsYudtb-od" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+				<iframe width="100%" height="596" src="https://youtu.be/ONz5loCP_k4" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
 
 
 				
