@@ -32,6 +32,7 @@ export default function RootLayout({ children }) {
       "name": "Red Pine Mushroom",
       "genre": ["Post-Rock", "Psychedelic Rock", "Desert Rock", "Instrumental"],
       "url": "https://redpinemushroom.com",
+	  "logo": "https://www.redpinemushroom.com/logomain.png",
       "description": "Red Pine Mushroom is an instrumental post-rock band blending elements of desert rock and psychedelic rock. Explore our albums, upcoming concerts, and exclusive content.",
       "keywords": "Red Pine Mushroom, post-rock band, desert rock, psychedelic rock, instrumental music, live concerts, music albums",
       "image": "https://redpinemushroom.com/logomain.png",
